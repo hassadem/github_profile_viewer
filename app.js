@@ -31,7 +31,7 @@ form.addEventListener('submit', function (e) {
 });
 
 function fetchUserProfile(username) {
-  const accessToken = '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';
+  const accessToken = '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';
   const apiUrl = `https://api.github.com/users/${username}`;
   const headers = {
     Authorization: `Bearer ${accessToken}`,
