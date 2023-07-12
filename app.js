@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
   });
   
   function fetchUserProfile(username) {
-    const accessToken = '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';
+    const accessToken = '';
     const apiUrl = `https://api.github.com/users/${username}`;
     const headers = {
       Authorization: `Bearer ${accessToken}`,
